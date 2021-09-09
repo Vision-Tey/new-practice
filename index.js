@@ -6,7 +6,8 @@ const para2 = document.querySelector('.para2');
 const btn2 = document.querySelector('.btn2');
 const para3 = document.querySelector('.para3');
 const kont = document.querySelector('.kontent');
-const body = document.querySelector('.body')
+const body = document.querySelector('.body');
+const head =  document.querySelector('.head');
 //Using document by id
 // let button = document.getElementById('btn');
 
@@ -33,5 +34,6 @@ btn2.addEventListener('click',()=>{
     para3.style.color = 'white';
     body.style.backgroundColor = 'black';
     kont.style.backgroundColor = 'black';
+    head.style.color = 'white';
 
 })
